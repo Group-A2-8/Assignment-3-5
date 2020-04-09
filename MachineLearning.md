@@ -18,7 +18,7 @@ Taking a dive into computing as a whole, we can see where machine learning fits 
 
 |Diagram 1|Diagram 2|
 |---|---|
-|![Machine Learning Diagram 1](assests/MLDiagram01.png)|![Machine Learning Diagram 2](assests/MLDiagram02.png)|
+|![Machine Learning Diagram 1](assets/MLDiagram01.png)|![Machine Learning Diagram 2](assets/MLDiagram02.png)|
 
 
 2. What can be done now? (276 words)
@@ -27,17 +27,19 @@ Machine Learning touches our lives in many areas but as we can see in diagram 2,
 
 Let's take a look at Supervised Learning, which is used in spam email detection, image classification, weather forecasting, and identity fraud detection.  A supervised learning approach to spam emails uses the frequency or importance of words in the training data to explore and analyse if the email should be classified as spam or non-spam (ham). That's how services like GMail develop their spam filter.  The banking and finance sector uses supervised learning to identify clients with high-risk profiles and pinpoint warning signs of fraud<sup>4</sup>.  The image classification algorithms of supervised learning help Pinterest, who purchased a machine learning company in 2015, learn what its users want next<sup>5</sup>.
 
-Unsupervised learning can be used for facial and image recognition, feature elicitation, and for big data visualisation.  A facial recognition services can compare the facial properties of individuals and cross-checks it on a vast amount of other data sets. This is how Facebook can not only correctly recognise your face, but also suggest your lookalike or doppelganger celebrity<sup>6</sup>.  For those of us who like taking photos but want that pro-look, app company Pixelmator use feature elicitation to deliver more intelligent image editing by using a model that has been trained on over 20 million professional photos<sup>7</sup>. Even government agencies such as public safety and utilities have a particular need for machine learning. By mining their large amounts of data, big data visualisation can identify ways to increase energy efficiency and save money.
+Unsupervised learning can be used for facial and image recognition, feature elicitation, targeted marketing, and for big data visualisation.  A facial recognition services can compare the facial properties of individuals and cross-checks it on a vast amount of other data sets. This is how Facebook can not only correctly recognise your face, but also suggest your lookalike or doppelganger celebrity<sup>6</sup>.  For those of us who like taking photos but want that pro-look, app company Pixelmator use feature elicitation to deliver more intelligent image editing by using a model that has been trained on over 20 million professional photos<sup>7</sup>. Streaming service Netflix uses targeted marketing with such ever increasing accuracy that 75% of its users select films recommended to them by the company’s machine learning algorithms<sup>8</sup>. Even government agencies such as public safety and utilities have a particular need for machine learning. By mining their large amounts of data, big data visualisation can identify ways to increase energy efficiency and save money.
 
-Reinforcement learning can be used in:
+Reinforcement learning can be used in video game AI, real-time decision making and robot navigation.  Microsoft's Project Mamlo created an AI-based development platform in Minecraft with the goal to study complex virtual environments and apply the lessons learned from that study to the physical world.  The real-time decision making and robot navigation data from the popular Grand Theft Auto V, is helping to train autonomous vehicles, robots, and drones.  The gaming software makes it possible to cycle through millions of possibilities and find subtle anomalies and correlations that determine whether an autonomous vehicle manoeuvres correctly for a dog on the road and stops at a traffic light that is not working, or simply crashes, at a relatively low cost to researchers <sup>9</sup>.
 
-Game AI
-For example, in 2015, Microsoft embarked on a project called Malmo, which created an AI-based development platform revolving around the popular world-
-building game Minecraft. The goal of the project was to experiment with
-and study complex virtual environments and apply the lessons learned from that study to the physical world. Katja Hofmann, chief researcher for the project, has stated that “endless possibilities for experimentation” exist. Others, such as Google’s Deep-Mind project, are also examining games and how they can apply data to the physical world.
+
+
+
+
+
+of the project was to experiment with and study complex virtual environments and apply the lessons learned from that study to the physical world. Katja Hofmann, chief researcher for the project, has stated that “endless possibilities for experimentation” exist. Others, such as Google’s Deep-Mind project, are also examining games and how they can apply data to the physical world.
 Not surprisingly, there are limitations to how video games can be used to train robotic and autonomous systems. Software such as Grand Theft Auto V typically requires hundreds of millions of dollars to develop, yet these packages are available commercially at a relatively low cost. Essentially, the game manufacturer is footing the bill for research and development that would be unachievable and unaffordable in a lab. As a result, the use of games for machine learning will likely be limited to specific fields, such as autonomous vehicle and robotics research. It’s difficult to envision a game for training surgical robots, for example. Nevertheless, the idea of using AI to extract data from games and apply it to the real world is gaining momentum. Not only do these simulations eliminate the cost, time, and human resources involved with building and operating complex machines—autonomous vehicles, robots, drones, software agents and more—they make it possible to cycle through millions of possibilities and find subtle anomalies and correlations that determine whether an autonomous vehicle manoeuvres correctly for a dog on the road and stops at a traffic light that is not working, or simply crashes.
 
-
+![Helping to revolutionise how researchers develop autonomous vehicles](assets/GTAVscene.png)
 
 
 Healthcare - thanks to the advent of wearable devices and sensors that can use data to assess a patient's health in real time. Image processing to classify anomalies in human organs for early detection of cancers
@@ -49,8 +51,6 @@ Energy sectors
 Transportation - Self-driving cars from Google  
 Analysing data to identify patterns and trends is key to the transportation industry, which relies on making routes more efficient and predicting potential problems to increase profitability. The data analysis and modelling aspects of machine learning are important tools to delivery companies, public transportation and other transportation organizations.
 
-Advertising - Online recommendations from Netflix and Amazon
-75% of Netflix users select films recommended to them by the company’s machine learning algorithms <sup>4</sup>.
 
 The goal of machine learning is to perfect the predictive function by refining it on as much data as possible. That explains why large databases such as Facebook's, in which the algorithm continuously compares facial properties of individuals and cross-checks it on a vast amount of other data sets, cannot only correctly recognise your face but also suggest your lookalike or doppelganger celebrity.   Freiesleben, J. (2018). REVOLUTIONARY IMPACT? Quality Progress, 51(10), 30-36.
 
@@ -95,8 +95,10 @@ How will this affect you? (300 words)
 
 7 Pixelmator Team. (2020) Machine Learning - Pixelmator Pro. Retrieved April 09, 2020, from https://www.pixelmator.com/pro/machine-learning/
 
+8 Louis Columbus. (2020) Roundup Of Machine Learning Forecasts And Market Estimates, 2020. Retrieved April 08, 2020, from https://www.forbes.com/sites/louiscolumbus/2020/01/19/roundup-of-machine-learning-forecasts-and-market-estimates-2020/#1ac2e4645c02
 
-Louis Columbus. (2020) Roundup Of Machine Learning Forecasts And Market Estimates, 2020. Retrieved April 08, 2020, from https://www.forbes.com/sites/louiscolumbus/2020/01/19/roundup-of-machine-learning-forecasts-and-market-estimates-2020/#1ac2e4645c02
+9 Greengard, S. (2017). Gaming machine learning. Communications of the ACM, 60(12), 14-16.
+
 
 Jacob Biamonte, Peter Wittek, Nicola Pancotti, Patrick Rebentrost, Nathan Wiebe, & Seth Lloyd. (2017). Quantum machine learning. Nature, 549(7671), 195-202.
 
@@ -126,9 +128,7 @@ Not surprisingly, there are limitations to how video games can be used to train 
 Greengard, S. (2017). Gaming machine learning. Communications of the ACM, 60(12), 14-16.
 
 
-![Machine Learning Algorithm Cheat Sheet](assests/machine-learning-cheet-sheet.png)  [Source](https://blogs.sas.com/content/subconsciousmusings/2017/04/12/machine-learning-algorithm-use/)
 
-For superscript<sup>1</sup>
 
 
 
@@ -181,3 +181,7 @@ Schuld, M., Sinayskiy, I., & Petruccione, F. (2015). An introduction to quantum 
 The Banking & Financial Services to identify important insights in data, and prevent fraud. The insights can identify investment opportunities, or help investors know when to trade. Data mining can also identify clients with high-risk profiles, or use cybersurveillance to pinpoint warning signs of fraud. <sup>6</sup>
 
 Predictive services for your email address that applies a spam mail filter that learns from user behaviour and external databases to classify new spam mails correctly.  Use a quantum decision tree to more accurately classify an email as ‘spam’, ‘no spam’ or ‘unsure’. <sup>6</sup>
+
+Why is machine learning important?
+Resurging interest in machine learning is due to the same factors that have made data mining and Bayesian analysis more popular than ever. Things like growing volumes and varieties of available data, computational processing that is cheaper and more powerful, and affordable data storage.
+All of these things mean it's possible to quickly and automatically produce models that can analyse bigger, more complex data and deliver faster, more accurate results – even on a very large scale. And by building precise models, an organization has a better chance of identifying profitable opportunities – or avoiding unknown risks. 4 Hui Li. (2020) Machine Learning: What it is and why it matters | SAS. Retrieved April 08, 2020, from https://www.sas.com/en_us/insights/analytics/machine-learning.html
