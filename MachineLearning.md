@@ -21,7 +21,7 @@ Taking a dive into computing as a whole, we can see where machine learning fits 
 |![Machine Learning Diagram 1](assets/MLDiagram01.png)|![Machine Learning Diagram 2](assets/MLDiagram02.png)|
 
 
-2. What can be done now? (276 words)
+2. What can be done now? (428 words)
 
 Machine Learning touches our lives in many areas but as we can see in diagram 2, different algorithms are used in different sectors based on the way the data is collected and the desired outcome to your query.
 
@@ -32,29 +32,13 @@ Unsupervised learning can be used for facial and image recognition, feature elic
 Reinforcement learning can be used in video game AI, real-time decision making and robot navigation.  Microsoft's Project Mamlo created an AI-based development platform in Minecraft with the goal to study complex virtual environments and apply the lessons learned from that study to the physical world.  The real-time decision making and robot navigation data from the popular Grand Theft Auto V, is helping to train autonomous vehicles, robots, and drones.  The gaming software makes it possible to cycle through millions of possibilities and find subtle anomalies and correlations that determine whether an autonomous vehicle manoeuvres correctly for a dog on the road and stops at a traffic light that is not working, or simply crashes, at a relatively low cost to researchers <sup>9</sup>.
 
 
-
-
-
-
-of the project was to experiment with and study complex virtual environments and apply the lessons learned from that study to the physical world. Katja Hofmann, chief researcher for the project, has stated that “endless possibilities for experimentation” exist. Others, such as Google’s Deep-Mind project, are also examining games and how they can apply data to the physical world.
-Not surprisingly, there are limitations to how video games can be used to train robotic and autonomous systems. Software such as Grand Theft Auto V typically requires hundreds of millions of dollars to develop, yet these packages are available commercially at a relatively low cost. Essentially, the game manufacturer is footing the bill for research and development that would be unachievable and unaffordable in a lab. As a result, the use of games for machine learning will likely be limited to specific fields, such as autonomous vehicle and robotics research. It’s difficult to envision a game for training surgical robots, for example. Nevertheless, the idea of using AI to extract data from games and apply it to the real world is gaining momentum. Not only do these simulations eliminate the cost, time, and human resources involved with building and operating complex machines—autonomous vehicles, robots, drones, software agents and more—they make it possible to cycle through millions of possibilities and find subtle anomalies and correlations that determine whether an autonomous vehicle manoeuvres correctly for a dog on the road and stops at a traffic light that is not working, or simply crashes.
-
 ![Helping to revolutionise how researchers develop autonomous vehicles](assets/GTAVscene.png)
 
 
-Healthcare - thanks to the advent of wearable devices and sensors that can use data to assess a patient's health in real time. Image processing to classify anomalies in human organs for early detection of cancers
-
-Retail and e-commerce - Websites recommending items you might like based on previous purchases are using machine learning to analyse your buying history.  Retailers rely on machine learning to capture data, analyse it and use it to personalize a shopping experience, implement a marketing campaign, price optimization, merchandise supply planning, and for customer insights.   
-
-Energy sectors
-
-Transportation - Self-driving cars from Google  
-Analysing data to identify patterns and trends is key to the transportation industry, which relies on making routes more efficient and predicting potential problems to increase profitability. The data analysis and modelling aspects of machine learning are important tools to delivery companies, public transportation and other transportation organizations.
 
 
-The goal of machine learning is to perfect the predictive function by refining it on as much data as possible. That explains why large databases such as Facebook's, in which the algorithm continuously compares facial properties of individuals and cross-checks it on a vast amount of other data sets, cannot only correctly recognise your face but also suggest your lookalike or doppelganger celebrity.   Freiesleben, J. (2018). REVOLUTIONARY IMPACT? Quality Progress, 51(10), 30-36.
 
-Natural language processing - knowing what customers are saying about you on Twitter
+
 
 
 3. What is likely to be able to do be done soon (say in the next 3 years)? 
@@ -76,6 +60,9 @@ How will this affect you? (300 words)
 1. In your daily life, how will this affect you?
 2. What will be different for you? 
 3. How might this affect members of your family or your friends?
+
+
+
 
 
 
@@ -121,6 +108,30 @@ Hui Li. (2020) Which machine learning algorithm should I use? - The SAS Data Sci
 
 Kamil Krzyk. (2020) Coding Deep Learning For Beginners - Towards Data Science. Retrieved April 08, 2020, from https://towardsdatascience.com/coding-deep-learning-for-beginners-types-of-machine-learning-b9e651e1ed9d
 
+
+
+
+
+
+MY NOTES
+___
+
+
+
+Healthcare - thanks to the advent of wearable devices and sensors that can use data to assess a patient's health in real time. Image processing to classify anomalies in human organs for early detection of cancers
+
+Retail and e-commerce - Websites recommending items you might like based on previous purchases are using machine learning to analyse your buying history.  Retailers rely on machine learning to capture data, analyse it and use it to personalize a shopping experience, implement a marketing campaign, price optimization, merchandise supply planning, and for customer insights.   
+
+Energy sectors
+
+Transportation - Self-driving cars from Google  
+Analysing data to identify patterns and trends is key to the transportation industry, which relies on making routes more efficient and predicting potential problems to increase profitability. The data analysis and modelling aspects of machine learning are important tools to delivery companies, public transportation and other transportation organizations.
+
+
+The goal of machine learning is to perfect the predictive function by refining it on as much data as possible. That explains why large databases such as Facebook's, in which the algorithm continuously compares facial properties of individuals and cross-checks it on a vast amount of other data sets, cannot only correctly recognise your face but also suggest your lookalike or doppelganger celebrity.   Freiesleben, J. (2018). REVOLUTIONARY IMPACT? Quality Progress, 51(10), 30-36.
+
+Natural language processing - knowing what customers are saying about you on Twitter
+
 For example, in 2015, Microsoft embarked on a project called Malmo, which created an AI-based development platform revolving around the popular world-
 building game Minecraft. The goal of the project was to experiment with
 and study complex virtual environments and apply the lessons learned from that study to the physical world. Katja Hofmann, chief researcher for the project, has stated that “endless possibilities for experimentation” exist. Others, such as Google’s Deep-Mind project, are also examining games and how they can apply data to the physical world.
@@ -129,11 +140,6 @@ Greengard, S. (2017). Gaming machine learning. Communications of the ACM, 60(12)
 
 
 
-
-
-
-NOTES
-___
 
 
 AI, then Machine Learning, then Deep Learning, so don't get them mixed up.
