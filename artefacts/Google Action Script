@@ -1,0 +1,25 @@
+{
+  "responseId": "4d13abd2-f267-4b44-8237-277fac688ada-c1292b34",
+  "queryResult": {
+    "queryText": "open hydro home",
+    "action": "app.open",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Hydro home is ready to go!",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Hydro home is ready to go!"
+          ]
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/app-management-hbkofk/agent/intents/21bdb00d-b862-4630-be6a-45cfb7b80cdf",
+      "displayName": "Open Hydro home"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  }
+}
