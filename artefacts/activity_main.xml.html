@@ -1,0 +1,237 @@
+<html>
+<head>
+<title>activity_main.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e8bf6a;}
+.s1 { color: #bababa;}
+.s2 { color: #6a8759;}
+.s3 { color: #a9b7c6;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_main.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;androidx.coordinatorlayout.widget.CoordinatorLayout </span><span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s2">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s2">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span><span class="s0">&gt;</span>
+
+    <span class="s0">&lt;androidx.core.widget.NestedScrollView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/nestedScrollView&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;682dp&quot;</span>
+        <span class="s1">app:layout_anchor</span><span class="s2">=&quot;@+id/nestedScrollView&quot;</span>
+        <span class="s1">app:layout_anchorGravity</span><span class="s2">=&quot;center&quot;</span>
+        <span class="s1">app:layout_behavior</span><span class="s2">=&quot;com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior&quot;</span>
+        <span class="s1">tools:layout_editor_absoluteX</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">tools:layout_editor_absoluteY</span><span class="s2">=&quot;42dp&quot;</span><span class="s0">&gt;</span>
+
+    <span class="s0">&lt;/androidx.core.widget.NestedScrollView&gt;</span>
+
+    <span class="s0">&lt;androidx.constraintlayout.widget.ConstraintLayout</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/constraintLayout2&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">app:layout_anchor</span><span class="s2">=&quot;@+id/nestedScrollView&quot;</span>
+        <span class="s1">app:layout_anchorGravity</span><span class="s2">=&quot;center&quot;</span><span class="s0">&gt;</span>
+
+        <span class="s0">&lt;EditText</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/editText3&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;100dp&quot;</span>
+            <span class="s1">android:ems</span><span class="s2">=&quot;10&quot;</span>
+            <span class="s1">android:inputType</span><span class="s2">=&quot;textPersonName&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;      Clean HydroHome&quot;</span>
+            <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/button6&quot;</span>
+            <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;Button</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/button6&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;104dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;37dp&quot;</span>
+            <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;220dp&quot;</span>
+            <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;100dp&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;OK&quot;</span>
+            <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;EditText</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/editText5&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;204dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;44dp&quot;</span>
+            <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;32dp&quot;</span>
+            <span class="s1">android:ems</span><span class="s2">=&quot;10&quot;</span>
+            <span class="s1">android:inputType</span><span class="s2">=&quot;textPersonName&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;Turn Off/On HydroHome&quot;</span>
+            <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/button7&quot;</span>
+            <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/editText3&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;Button</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/button7&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;111dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;39dp&quot;</span>
+            <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;220dp&quot;</span>
+            <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;32dp&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;OK&quot;</span>
+            <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/button6&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;EditText</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/editText6&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;225dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;49dp&quot;</span>
+            <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;32dp&quot;</span>
+            <span class="s1">android:ems</span><span class="s2">=&quot;10&quot;</span>
+            <span class="s1">android:inputType</span><span class="s2">=&quot;textPersonName&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;Turn Off/On Harvest Mode&quot;</span>
+            <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/button8&quot;</span>
+            <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/editText5&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;Button</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/button8&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;111dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;42dp&quot;</span>
+            <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;220dp&quot;</span>
+            <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;32dp&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;OK&quot;</span>
+            <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/button7&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;Switch</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/switch1&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;305dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;36dp&quot;</span>
+            <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;16dp&quot;</span>
+            <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;330dp&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;Power Saver Mode&quot;</span>
+            <span class="s1">android:textAppearance</span><span class="s2">=&quot;@style/TextAppearance.AppCompat.Medium&quot;</span>
+            <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/button8&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;EditText</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/editText7&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;203dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;38dp&quot;</span>
+            <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;32dp&quot;</span>
+            <span class="s1">android:ems</span><span class="s2">=&quot;10&quot;</span>
+            <span class="s1">android:inputType</span><span class="s2">=&quot;textPersonName&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;   Check For Updates&quot;</span>
+            <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/button9&quot;</span>
+            <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/switch1&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;Button</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/button9&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;115dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;43dp&quot;</span>
+            <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;220dp&quot;</span>
+            <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;200dp&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;OK&quot;</span>
+            <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/button8&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;EditText</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/editText8&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;222dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;48dp&quot;</span>
+            <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;32dp&quot;</span>
+            <span class="s1">android:ems</span><span class="s2">=&quot;10&quot;</span>
+            <span class="s1">android:inputType</span><span class="s2">=&quot;textPersonName&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;   Display System Data&quot;</span>
+            <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/button10&quot;</span>
+            <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/editText7&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;Button</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/button10&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;112dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;41dp&quot;</span>
+            <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;220dp&quot;</span>
+            <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;32dp&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;OK&quot;</span>
+            <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/button9&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;EditText</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/editText9&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;216dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;48dp&quot;</span>
+            <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;32dp&quot;</span>
+            <span class="s1">android:ems</span><span class="s2">=&quot;10&quot;</span>
+            <span class="s1">android:inputType</span><span class="s2">=&quot;textPersonName&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;       Get Support&quot;</span>
+            <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/button11&quot;</span>
+            <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/editText8&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;Button</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/button11&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;112dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;46dp&quot;</span>
+            <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;220dp&quot;</span>
+            <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;32dp&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;OK&quot;</span>
+            <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+            <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/button10&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</span>
+
+    <span class="s0">&lt;com.google.android.material.appbar.AppBarLayout</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/appbar&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span><span class="s0">&gt;</span>
+
+        <span class="s0">&lt;androidx.appcompat.widget.Toolbar</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;0dp&quot;</span>
+            <span class="s1">app:layout_scrollFlags</span><span class="s2">=&quot;scroll|enterAlways&quot;</span><span class="s0">&gt;&lt;/androidx.appcompat.widget.Toolbar&gt;</span>
+
+        <span class="s0">&lt;com.google.android.material.tabs.TabLayout</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/tabs&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">app:layout_scrollFlags</span><span class="s2">=&quot;scroll|enterAlways&quot;</span>
+
+            <span class="s1">app:tabMode</span><span class="s2">=&quot;scrollable&quot;</span><span class="s0">&gt;</span>
+
+            <span class="s0">&lt;com.google.android.material.tabs.TabItem</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;@string/system_controls&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;com.google.android.material.tabs.TabItem</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;@string/plants&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;com.google.android.material.tabs.TabItem</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;@string/store&quot; </span><span class="s0">/&gt;</span>
+        <span class="s0">&lt;/com.google.android.material.tabs.TabLayout&gt;</span>
+    <span class="s0">&lt;/com.google.android.material.appbar.AppBarLayout&gt;</span>
+
+<span class="s0">&lt;/androidx.coordinatorlayout.widget.CoordinatorLayout&gt;</span></pre>
+</body>
+</html>
